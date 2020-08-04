@@ -1,0 +1,18 @@
+.wizard-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+::ng-deep label {
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+::ng-deep input.ng-invalid.ng-touched {
+  border: solid 1px red;
+}
+
+::ng-deep span.error {
+  color: red;
+  margin-left: 15px;
+}
